@@ -24,12 +24,12 @@
 <main>
   <span class="tag">Littlebit</span>
   <h1>Privacy Policy</h1>
-  <p class="muted">Updated October 13, 2026 (version 1.0.3)</p>
+  <p class="muted">Updated October 15, 2026</p>
 
   <div class="box">
     <strong>In short:</strong> your baby's records are stored on your own phone. If you use
     <em>Family logging</em>, records are also stored in your iCloud and can only be seen by the family members you invite.
-    The developer cannot view your baby's records. We receive limited purchase history from Apple to manage and understand Littlebit Pro purchases. Littlebit doesn't require an account.
+    The developer cannot view your baby's records. We receive limited app metadata and purchase history to understand app usage and Littlebit Pro purchases. Littlebit doesn't require an account.
   </div>
 
   <h2>Data you record</h2>
@@ -37,7 +37,7 @@
   feeding, sleep, and diaper logs, pumping and milk stash records, solid food logs and reactions,
   temperature, medicine, vitamin, and symptom logs, activities such as tummy time and baths, teeth and potty training logs, moments and their photos, a pregnancy checklist,
   growth measurements, vaccines, and developmental milestones, plus your own habits (habits stay on this device only).
-  This data is stored on your device and is never sent to the developer's server. Our purchase-notification server does not receive baby records.</p>
+  This data is stored on your device and is never sent to the developer's server. Our analytics and purchase-notification server does not receive baby records.</p>
   <p>Photos you add to moments are chosen by you in the system photo picker; Littlebit only receives the photos you pick.
   They are stored on your device, and in your iCloud if you use Family logging, never on our servers.</p>
   <p>The weekly summary is worked out on your device. Where Apple Intelligence is available, its short opening sentence is written
@@ -56,16 +56,29 @@
   <h2>Data we don't collect from the app</h2>
   <ul>
     <li>No account sign-up, email address, or phone number.</li>
-    <li>No in-app behavior analytics, tracking, or ads.</li>
+    <li>No advertising identifiers, cross-app tracking, or ads.</li>
     <li>No access to your location, contacts, photos, camera, or microphone.</li>
   </ul>
+
+  <h2>App activity and technical metadata</h2>
+  <p>When you open Littlebit while online, the app sends a randomly generated installation identifier, its first recorded open time,
+  app version and build, iOS version, and your App Store country or region when available. While the app is open,
+  it sends a small activity update about once a minute. Offline opens are reported when a connection is available.
+  The country is your App Store region, not your physical location; we do not request GPS access.</p>
+  <p>We verify Apple-signed app and purchase information and retain the app-specific transaction identifiers needed to associate
+  activity with Littlebit Pro. These identifiers can link activity and purchases across devices using the same Apple Account,
+  without disclosing your Apple Account name, email address, or password. Reinstalling the app can create a new installation identifier. For existing installations, the first recorded open begins when you update to a version that supports this metadata; it does not reconstruct earlier use.
+  We use this metadata to measure active users, supported app versions, and conversion from free use or a trial to paid Pro.</p>
+  <p>The analytics database does not store IP addresses, baby records, health information, photos, names, email addresses,
+  or the contents of individual logging actions. Cloudflare hosts this service and processes network requests to deliver and secure it.
+  We do not sell this metadata, use it for advertising, or combine it with activity in other developers' apps.</p>
 
   <h2>Notifications</h2>
   <p>If you turn on reminders, notifications are scheduled directly on your device. No data is sent anywhere for this.</p>
 
   <h2>Littlebit Pro purchases</h2>
-  <p>Apple processes payments. Apple's App Store Server Notifications send our server purchase events, including a transaction identifier, original transaction identifier, product, purchase and expiry dates, trial or refund status, price, currency, and storefront when available. We store these events and use them for purchase administration and sales reporting. We do not receive your card or bank details, name, email address, or your baby's records through these notifications. Purchase events are associated with a persistent transaction identifier; they are not used for advertising or tracking.</p>
-  <p>You can manage or cancel your subscription at any time in Settings &gt; [your name] &gt; Subscriptions. For questions about stored purchase records or a deletion request, contact us using the address below.</p>
+  <p>Apple processes payments. Apple's App Store Server Notifications send our server purchase events, including a transaction identifier, original transaction identifier, product, purchase and expiry dates, trial or refund status, price, currency, and storefront, app account token, and app-specific transaction identifier when available. The app may also send Apple-signed purchase history to associate existing or restored Pro purchases with its anonymous app profile. We store these events and use them for purchase administration and sales reporting. We do not receive your card or bank details, name, email address, or your baby's records through these notifications. Purchase events are associated with a persistent transaction identifier; they are not used for advertising or tracking.</p>
+  <p>You can manage or cancel your subscription at any time in Settings &gt; [your name] &gt; Subscriptions. For questions about stored purchase records or a deletion request, contact us using the address below. Your installation identifier is available in Littlebit Settings under About as the Support ID.</p>
 
   <h2>PDF reports</h2>
   <p>Doctor reports are created on your device. A report is only shared if you choose to share it yourself, for example via WhatsApp or email.</p>
@@ -74,6 +87,11 @@
   <p>You can delete all data at any time in the app under Settings &gt; Delete all data, or by deleting the app from your device.
   If you have used Family logging, stop sharing first. The copy in iCloud can be deleted in
   iPhone Settings &gt; [your name] &gt; iCloud &gt; Manage Storage.</p>
+
+  <p>Deleting the app or its local records does not automatically delete metadata or purchase events already received by our server.
+  We keep this information for app analytics and purchase administration until it is no longer needed or a deletion request is processed.
+  To request deletion of the metadata associated with your installation, contact us and include your Support ID.
+  Purchase records may be retained separately for purchase administration.</p>
 
   <h2>Children</h2>
   <p>Littlebit is intended for parents and caregivers, not for use by children. Information about a child is entered only by the parents and stays on the parents' device, or in the parents' iCloud if Family logging is used.</p>
